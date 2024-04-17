@@ -4,7 +4,9 @@
 }
 
 body{
+    font-family: 'Open Sans', sans-serif;
     color: white;
+    background-color: black;
 }
 
 header{
@@ -15,7 +17,8 @@ header{
 header .cont-header-general{
     width: 100%;
     height: 100px;
-    background-image: url(../assets/img/BackgraoundHeader.png);
+    background-image: url(../assets/img/backgroundheader.png);
+    background-color: black;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,7 +84,7 @@ header .cont-header-general .cont-redes-k .redes .icon-r-k svg{
 main section .cont-general-set1{
     width: 100%;
     height: 700px;
-    background-image: url(/assets/img/Diseño\ sin\ título\ \(1\).png);
+    background-image: url(/assets/img/backgroundsect1.png);
     background-size: cover;
     background-position: center;
     background-color: black;
@@ -96,7 +99,7 @@ main section .cont-general-set1 .cont-diseñog{
 
 .cont-since{
     width: 100%;
-    height: 70px;
+    height: 60px;
     background-color: rgba(0, 0, 0, 0.63);
     margin-top: -70px;
     overflow: hidden;
@@ -109,7 +112,107 @@ main section .cont-general-set1 .cont-diseñog{
     width: 120px;
 }
 
-.cont-general-sobre-n{
+main .cont-general-sobre-n{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .cont-general-sobre-n .cont-sobre-n{
+    width: 80%;
+    height: 600px;
+}
+
+main .cont-general-sobre-n .cont-sobre-n h1{
+    color: white;
+    font-size: 130px;
+    font-weight: 700;
+}
+
+main .cont-general-sobre-n .cont-sobre-n p{
+    color: white;
+    width: 800px;
+    height: auto;
+    font-size: 17px;
+}
+main .cont-diseños-k{
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+main .cont-diseños-k .diseños-k{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.diseños-k h1{
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.diseños-k .diseños{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+main .cont-diseños-k .cont-buttons-k{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+main .cont-diseños-k .cont-buttons-k .buttons{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+} 
+
+main .cont-general-wps{
+    width: 100%;
+    height: 800px;
+    background-image: url(/assets/img/backgroundwps.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .cont-general-wps .cont-wps{
+    width: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main .cont-general-wps .cont-wps .whatsapp{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+footer{
     width: 100%;
     height: 700px;
     background-color: black;
